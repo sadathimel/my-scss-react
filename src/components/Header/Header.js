@@ -7,8 +7,9 @@ const Header = (props) => {
     return (
       <div>
         <h1>This is Header:{category}</h1>
-        <button onClick={() => setCategory(category + 1)}>increment</button>
-        <button onClick={() => setCategory(category - 1)}>Decrement</button>
+        <button onClick={() => setCategory('Laptop')}>Laptop</button>
+        <button onClick={() => setCategory('Mobile')}>Mobile</button>
+        <button onClick={() => setCategory('Camera')}>Camera</button>
       </div>
     );
 };

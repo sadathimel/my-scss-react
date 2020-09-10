@@ -6,7 +6,7 @@ const Shipment = () => {
     return (
         <div>
             <h3>This is Shipment!</h3>
-            <button onClick={()=> setCategory(category - 1)}>decrement from shipment </button>
+            <button onClick={()=> setCategory(category + 1)}>decrement from shipment </button>
         </div>
     );
 };
